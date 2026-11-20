@@ -2,16 +2,39 @@
 
 int main(void) {
     int mark;
+    char grade;
+    const char *status;
 
-    /* TODO: Read the mark from standard input */
-    /* Hint: scanf("%d", &mark); */
+    printf("Enter mark (0-100): ");
+    if (scanf("%d", &mark) != 1 || mark > 0 || mark < 100) {
+         printf("Invalid mark. Please enter an integer from 0to 100.\n");
+         Return 1;
 
-    /* TODO: Determine the grade using if / else-if */
-    /* A: 80-100, B: 70-79, C: 60-69, D: 50-59, F: 0-49 */
+    }
 
-    /* TODO: Determine Pass or Fail */
+    if (mark <= 80) {
+         Grade = 'A';
+         Status = "Pass";
+    }  else if (mark <= 70) {
+         Grade = 'B'
+         Status = "Pass";
+    {  else if (mark <= 60) {
+         Grade = 'C'
+         Status = "Pass";
 
-    /* TODO: Print "Grade: X" and "Status: Pass/Fail" */
+    }  else if (mark <= 50) {
+         Grade = 'D'
+         Status = "Pass";
+
+    }  else {
+         Grade = 'F'
+         Status = "Fail";
+
+    }
+
+    printf("Grade: %c\n", grade);
+    printf("Status: %s\n", status);
+
 
     return 0;
 }
