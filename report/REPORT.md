@@ -173,6 +173,8 @@ The project folder contains the following test evidence image files:
 - input=80.png
 - input=85.png
 - input=100.png
+- pull reques.png
+- files-github.png
 
 These images should be inserted into the report where appropriate to demonstrate the actual program executions.
 
