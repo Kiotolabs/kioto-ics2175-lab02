@@ -175,6 +175,7 @@ The project folder contains the following test evidence image files:
 - input=100.png
 - pull reques.png
 - files-github.png
+- source-code-codeblocks.png
 
 These images should be inserted into the report where appropriate to demonstrate the actual program executions.
 
@@ -284,41 +285,49 @@ Overall, the practical strengthened my understanding of basic C programming and 
 
 ---
 
-### 9. APPENDIX: SCREENSHOTS AND EVIDENCE
+## 9. APPENDIX: SCREENSHOTS AND EVIDENCE
 
-The following evidence should be included in the final report.
+The following screenshots provide evidence of the work completed during Laboratory 02. They are saved in the `report/screenshots/` folder of my project repository.
 
-**Figure 1: Code::Blocks Project**
+**Figure 1: Code::Blocks Source Code**
 
-Insert a screenshot showing the Laboratory 02 project and `main.c` open in Code::Blocks.
+`report/screenshots/source-code-codeblocks.png`
 
 **Figure 2: Program Output – Mark 85**
 
-Insert the screenshot named `input=85.png`.
+`report/screenshots/input=85.png`
 
 **Figure 3: Program Output – Mark 72**
 
-Insert the screenshot named `input=72.png`.
+`report/screenshots/input=72.png`
 
 **Figure 4: Program Output – Mark 40**
 
-Insert the screenshot named `input=40.png`.
+`report/screenshots/input=40.png`
 
 **Figure 5: Boundary Testing Evidence**
 
-Insert screenshots for marks 0, 50, 79, 80 and 100.
+- `report/screenshots/input=0.png`
+- `report/screenshots/input=50.png`
+- `report/screenshots/input=79.png`
+- `report/screenshots/input=80.png`
+- `report/screenshots/input=100.png`
 
 **Figure 6: GitHub Project Files**
 
-Insert the screenshot showing the project files, including `.gitignore`, `main.c`, `main.exe` and the test evidence images.
+`report/screenshots/files-github.png`
 
 **Figure 7: GitHub Pull Request**
 
-Insert a screenshot of Pull Request #4 showing its title, target repository and Open status.
+`report/screenshots/pull request.png`
 
-Pull Request URL:
+**Live Pull Request:**
 
 https://github.com/Kiotolabs/kioto-ics2175-lab02/pull/4
+
+**Personal Repository:**
+
+https://github.com/mwendwamakete-source/kioto-ics2175-lab02
 
 ---
 
