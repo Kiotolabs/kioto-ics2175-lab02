@@ -27,7 +27,7 @@
 
 - Repository URL: <https://github.com/Molleyyy/kioto-ics2175-c-lab01>
 - Branch name: student/ENB-211-0030/2025/lab02
-- Commit summary: Implement if/else grading logic
+- Commit summary: Updated main.c
 - Pull request URL.: <https://github.com/Kiotolabs/kioto-ics2175-lab02/pull/9>
 
 **REFLECTION**
