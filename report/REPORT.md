@@ -241,4 +241,10 @@ I also gained experience in testing program outputs and using GitHub to manage p
 
 ![Input 100](screenshots/input=100.png)
 
+### 9.11 GitHub Branch
 
+![GitHub branch](screenshots/branch.png)
+
+### 9.12 Submitted Files on GitHub
+
+![Submitted files](screenshots/files-submitted.png)
