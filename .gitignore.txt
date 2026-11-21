@@ -1,0 +1,14 @@
+# Code::Blocks user-specific settings
+*.depend
+*.layout
+
+# Compiled output
+*.o
+*.exe
+bin/
+obj/
+program
+
+# Operating system noise
+.DS_Store
+Thumbs.db
