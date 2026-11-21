@@ -2,7 +2,7 @@ int main(){
 int mark;
 
     printf(" 40:");
-    scanf("40%",&40);
+    scanf("40%",40);
 
     if (mark >=80){
     printf("Grade:A\\n");
