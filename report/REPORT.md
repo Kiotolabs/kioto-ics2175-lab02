@@ -12,7 +12,7 @@
 
 ---
 
-## 2. Objective
+## 2. OBJECTIVE
 
 The main objective of this practical was to understand and apply selection and decision-making statements in C programming.
 
@@ -24,7 +24,7 @@ The specific objectives were:
 4. To determine whether a student has passed or failed based on their marks.
 5. To learn how to test and submit C programs using Git and GitHub.
 
-## 3. Environment and Setup
+## 3. ENVIRONMENT AND SETUP
 
 The practical was carried out using a Windows computer.
 
@@ -40,7 +40,7 @@ The following tools were used:
 
 The C program was written and compiled using the GCC compiler. The program was tested through the terminal to check whether it produced the correct grades and pass/fail results.
 
-## 4. Exercise — Selection and Decision-Making
+## 4. EXERCISE — SELECTION AND DECISION-MAKING
 
 The exercise involved writing a C program that accepts a student's mark and assigns a grade according to the grading scale provided.
 
@@ -120,7 +120,7 @@ Status: Fail
 
 The program classified the marks into the correct grades and displayed the appropriate pass or fail status based on the grading scale.
 
-## 5. Testing and Troubleshooting
+## 5. TESTING AND TROUBLESHOOTING
 
 ### 5.1 Program Testing
 
@@ -153,7 +153,7 @@ $env:Path += ";C:\Program Files\CodeBlocks\MinGW\bin"
 
 After this, GCC version 14.2.0 was successfully recognised. This allowed the program to be compiled using the GCC compiler.
 
-## 6. GitHub Workflow
+## 6. GITHUB WORKFLOW
 
 I forked the official Kiotolabs Laboratory 02 repository into my personal GitHub account and created an individual working branch.
 
@@ -176,7 +176,7 @@ https://github.com/Kiotolabs/kioto-ics2175-lab02/pull/11
 
 **Status:** Open – awaiting review.
 
-## 7. Reflection
+## 7. REFLECTION
 
 During this practical, I learned how to use selection and decision-making statements in C programming. I improved my understanding of relational operators and how `if`, `else-if` and `else` statements are used to control the flow of a program.
 
@@ -186,7 +186,7 @@ I also learned how to use GitHub branches, commits and pull requests when submit
 
 If I were to do this practical again, I would configure the compiler before starting the exercise and test my program carefully with all the required inputs. This would help me identify errors earlier and complete the work more efficiently.
 
-## 8. Conclusion
+## 8. CONCLUSION
 
 The laboratory practical helped me understand how selection and decision-making statements are used in C programming.
 
@@ -237,5 +237,10 @@ This screenshot shows the pull request created to submit the laboratory work for
 **Pull Request Link:**  
 https://github.com/Kiotolabs/kioto-ics2175-lab02/pull/11
 
+### Figure 5: Submitted Files
+
+- `submitted-files.png`
+
+This screenshot shows the files included in the Laboratory 02 submission.
 
 **END OF REPORT**
