@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 int main(void)
@@ -8,28 +9,22 @@ int main(void)
     scanf("%d", &mark);
 
     if (mark >= 80) {
-        printf("Grade: A\\n");
+        printf("Grade: A\n");
     } else if (mark >= 70) {
-        printf("Grade: B\\n");
+        printf("Grade: B\n");
     } else if (mark >= 60) {
-        printf("Grade: C\\n");
+        printf("Grade: C\n");
     } else if (mark >= 50) {
-        printf("Grade: D\\n");
+        printf("Grade: D\n");
     } else {
-        printf("Grade: F\\n");
+        printf("Grade: F\n");
     }
 
     if (mark >= 50) {
-        printf("Status: Pass\\n");
+        printf("Status: Pass\n");
     } else {
-        printf("Status: Fail\\n");
+        printf("Status: Fail\n");
     }
 
     return 0;
-\
-
-
-
-
-
 }
