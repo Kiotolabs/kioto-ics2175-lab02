@@ -5,7 +5,7 @@
 
 - **Name:** Kennedy Musyoka Kyalo
 - **Registration Number:** ENB211-0029/2025
-- **Programme:** [Insert programme]
+- **Programme:** C
 - **Unit:** ICS 2175 – Introduction to Computer Programming
 - **Institution:** Jomo Kenyatta University of Agriculture and Technology (JKUAT)
 - **Laboratory:** Laboratory 02 – Selection and Decision-Making
