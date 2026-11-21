@@ -45,9 +45,9 @@ After configuring the compiler, I used Code::Blocks to build and run my C progra
 
 ## 4. Exercise — Selection
 
-### 4.1 Source Code
+### 4.1 Original Source Code (main.c)
 
-The following C program accepts a student's mark and assigns a grade based on the mark obtained. It also displays whether the student has passed or failed.
+The first program was designed to accept a student's mark, assign a grade and determine whether the student had passed or failed.
 
 ```c
 #include <stdio.h>
@@ -81,87 +81,171 @@ int main(void)
 }
 ```
 
-### 4.2 Explanation of the Program
+### 4.2 Explanation of the Original Program
 
-1. `#include <stdio.h>` allows the program to use input and output functions such as `printf()` and `scanf()`.
+- `#include <stdio.h>` allows the program to use input and output functions.
+- `int mark;` declares a variable to store the student's mark.
+- `printf()` displays a message requesting the mark.
+- `scanf()` reads the mark entered by the user.
+- The `if-else if-else` statements assign grades according to the mark.
+- The second `if-else` statement determines whether the student has passed or failed.
+- `return 0;` indicates successful program execution.
 
-2. `int main(void)` is the main function where program execution begins.
+### 4.3 Improved Source Code (improved.c)
 
-3. `int mark;` declares an integer variable to store the student's mark.
+After testing the original program, I developed an improved version. The improved program includes input validation and a `switch` statement.
 
-4. `printf()` displays a message asking the user to enter a mark, while `scanf()` reads the value entered.
+```c
+#include <stdio.h>
 
-5. The `if-else if-else` statements compare the mark with different conditions and assign a grade:
-   - 80–100: Grade A
-   - 70–79: Grade B
-   - 60–69: Grade C
-   - 50–59: Grade D
-   - Below 50: Grade F
+int main(void)
+{
+    int mark;
+    char grade;
 
-6. The second `if-else` statement checks whether the mark is at least 50. If it is, the status is Pass; otherwise, the status is Fail.
+    printf("Enter mark (0-100): ");
 
-7. `return 0;` indicates that the program has completed successfully.
+    if (scanf("%d", &mark) != 1) {
+        printf("Invalid input!\n");
+        return 1;
+    }
 
-### 4.3 Sample Program Output
+    if (mark < 0 || mark > 100) {
+        printf("Invalid mark! Enter 0-100.\n");
+        return 1;
+    }
 
-**Test Case 1: Mark = 85**
+    if (mark >= 80) {
+        grade = 'A';
+    } else if (mark >= 70) {
+        grade = 'B';
+    } else if (mark >= 60) {
+        grade = 'C';
+    } else if (mark >= 50) {
+        grade = 'D';
+    } else {
+        grade = 'F';
+    }
+
+    printf("Grade: %c\n", grade);
+
+    switch (grade) {
+        case 'A':
+            printf("Excellent\n");
+            break;
+        case 'B':
+            printf("Very Good\n");
+            break;
+        case 'C':
+            printf("Good\n");
+            break;
+        case 'D':
+            printf("Pass\n");
+            break;
+        case 'F':
+            printf("Fail\n");
+            break;
+    }
+
+    if (mark >= 50) {
+        printf("Status: Pass\n");
+    } else {
+        printf("Status: Fail\n");
+    }
+
+    return 0;
+}
+```
+
+### 4.4 Explanation of the Improvements
+
+The improved program introduced the following features:
+
+1. **Input validation:** Checks whether the user enters a valid number.
+2. **Range checking:** Rejects marks below 0 and above 100.
+3. **Switch statement:** Displays a remark based on the assigned grade.
+4. **Break statement:** Prevents execution from continuing into another switch case.
+5. **Pass/fail decision:** Determines the student's final status.
+
+### 4.5 Sample Output of the Improved Program
+
+**Test 1: Mark 85**
 
 ```text
 Enter mark (0-100): 85
 Grade: A
+Excellent
 Status: Pass
 ```
 
-**Test Case 2: Mark = 72**
+**Test 2: Mark 72**
 
 ```text
 Enter mark (0-100): 72
 Grade: B
+Very Good
 Status: Pass
 ```
 
-**Test Case 3: Mark = 40**
+**Test 3: Mark 40**
 
 ```text
 Enter mark (0-100): 40
 Grade: F
+Fail
 Status: Fail
 ```
 
+**Test 4: Invalid mark 110**
+
+```text
+Enter mark (0-100): 110
+Invalid mark! Enter 0-100.
+```
+
+---
+
 ## 5. Testing and Troubleshooting
 
-### 5.1 Program Testing
+### 5.1 Testing the Original Program
 
-I tested my grading program using different marks to check whether it assigned the correct grades and pass/fail status.
+I tested the original program using different marks to check whether it assigned the correct grades and pass/fail statuses.
 
-The test cases included:
+The test cases included 0, 40, 50, 72, 79, 80, 85 and 100. The program produced the expected grades and statuses for these inputs.
 
-| Test mark | Expected grade | Expected status |
-|---:|:---:|:---:|
-| 0 | F | Fail |
-| 40 | F | Fail |
-| 50 | D | Pass |
-| 72 | B | Pass |
-| 79 | B | Pass |
-| 80 | A | Pass |
-| 85 | A | Pass |
-| 100 | A | Pass |
+### 5.2 Testing the Improved Program
 
-These tests covered different grading ranges and boundary values. Screenshots were used to provide evidence of the program output.
+I used Windows PowerShell to compile and execute the improved program. I tested nine different values in one terminal session.
 
-### 5.2 Troubleshooting
+| Input | Expected result |
+|---:|---|
+| 85 | Grade A – Pass |
+| 72 | Grade B – Pass |
+| 40 | Grade F – Fail |
+| 50 | Grade D – Pass |
+| 80 | Grade A – Pass |
+| 0 | Grade F – Fail |
+| 100 | Grade A – Pass |
+| 110 | Invalid mark |
+| -5 | Invalid mark |
 
-During the setup process, I configured the GNU GCC Compiler in Code::Blocks. I checked that the compiler installation directory pointed to the MinGW folder:
+The program correctly handled all nine test cases.
 
-`C:\Program Files\CodeBlocks\MinGW`
+### 5.3 Troubleshooting
 
-After configuring the compiler, I successfully built and ran the C program.
+Initially, PowerShell could not recognise the `gcc` command because the compiler directory was not available through the PowerShell PATH.
 
-### 5.3 Input Validation
+I corrected this by using the full compiler path:
 
-The current program does not yet reject marks below 0 or above 100. Adding input validation would improve the program by ensuring that users enter marks within the accepted range.
+`C:\msys64\ucrt64\bin\gcc.exe`
 
+After this correction, the program compiled successfully and all the test cases ran as expected.
 
+### 5.4 Improvements Made
+
+The original program did not check for invalid marks or non-numeric input. I improved it by introducing input validation and a `switch` statement.
+
+This made the program more reliable and helped me understand the use of different selection statements in C programming.
 
 ## 6. GitHub Workflow
 
@@ -191,3 +275,10 @@ If I were to do this exercise again, I would improve my program by adding input 
 
 
 
+## 8. Conclusion
+
+In conclusion, this laboratory exercise helped me understand the use of selection and decision-making statements in C programming. I successfully wrote, compiled and executed a grading program using `if`, `else if` and `else` statements.
+
+I also gained practical experience in configuring the GCC compiler, testing programs with different marks and using GitHub to manage and submit my work.
+
+The exercise achieved its main objectives by improving my understanding of basic C programming and decision-making.
