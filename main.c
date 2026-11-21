@@ -1,3 +1,4 @@
+/* Lab 02: grading program using if / else if */
 #include <stdio.h>
 
 int main(void) {
