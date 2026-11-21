@@ -179,12 +179,18 @@ The pull request was created from my personal repository to the original Kiotola
 
 #### 6.3 Commit and Changes
 
-At the time of preparing this report, the pull request showed:
+At the time of preparing this report, the pull request showed **4 commits**, demonstrating the progress made while developing and updating the laboratory submission.
 
-- 1 commit.
-- 11 files changed.
-- 21 additions and 9 deletions.
+The four commits were:
 
+1. **evidence and source-coide** – Added the program source code and supporting evidence.
+2. **report updated and pull request** – Updated the laboratory report and pull request details.
+3. **report** – Added the laboratory report.
+4. **REPORT** – Updated the final report.
+
+All four commits were made on 20 November 2026 under my GitHub account, `kyalokennedy142-del`.
+
+These commits demonstrate the use of version control to track changes and maintain a record of the work completed during the laboratory exercise.
 #### 6.4 Automated Validation
 
 The pull request includes a Checks tab for automated validation using GitHub Actions. The checks had not yet reported a result when the pull request details were recorded.
