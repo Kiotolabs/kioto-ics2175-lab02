@@ -173,12 +173,15 @@ The workflow involved the following steps:
 
 - **Official repository:** https://github.com/Kiotolabs/kioto-ics2175-lab02
 - **Personal GitHub username:** beingfav
-- **Personal fork URL:** TO BE ADDED
-- **Branch name:** student/ENB211-0017/2025/lab02
-- **Pull request URL:** TO BE ADDED
+- **Personal fork:** https://github.com/beingfav/kioto-ics2175-lab02
+- **Branch name:** student/ENB211-0017/2025/lab-02
+- **Number of commits:** 15
+- **Files changed:** 14
+- **Changes:** 269 additions and 15 deletions
+- **Pull request:** https://github.com/Kiotolabs/kioto-ics2175-lab02/pull/18
+- **Pull request status:** Open
 
-The pull request was intended for the original Kiotolabs repository so that the lecturer could review the submitted work.
-
+The pull request was successfully created from my personal fork to the main branch of the official Kiotolabs repository. It was left open for the lecturer's review.
 
 ## 7. Individual Reflection
 
@@ -191,6 +194,14 @@ I also learned the importance of testing programs with different values, especia
 One challenge was understanding how to arrange the conditions correctly so that each mark falls into the appropriate grading range.
 
 Overall, the practical improved my problem-solving skills and gave me more confidence in writing C programs that make decisions.
+
+
+
+Personal fork: https://github.com/beingfav/kioto-ics2175-lab02
+
+
+
+Pull request: https://github.com/Kiotolabs/kioto-ics2175-lab02/pull/18
 
 
 ## 8. Conclusion
@@ -248,3 +259,8 @@ I also gained experience in testing program outputs and using GitHub to manage p
 ### 9.12 Submitted Files on GitHub
 
 ![Submitted files](screenshots/files-submitted.png)
+
+
+### 9.13 GitHub Pull Request
+
+![GitHub Pull Request](screenshots/pull-request.png)
