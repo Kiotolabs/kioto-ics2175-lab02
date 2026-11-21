@@ -1,0 +1,83 @@
+# ICS 2175 - Laboratory 02 Report
+
+## Student
+- Name: NJOROGE GORGINA WANJIRU
+- Registration number: ENB211-0009/2025
+- Programme: AGRICULTURAL AND BIOSYSTEMS ENGINEERING
+- Unit: COMPUTER PROGRAMMING
+- Lab number: 2
+- Date: 21/11/2026
+
+
+OBJECTIVE
+To gain practical skills in setting up and using a C programming environment. The exercise aimed to introduce the basics of C programming, including writing, else, compiling, executing and debugging programs.
+
+ENVIRONMENT AND SETUP
+Operating system: Windows 11
+IDE: Code::Blocks 25.03
+Programming language: C
+Compiler/ toolchain: GNU GCC
+Version control platform: Github
+Version control application: Github Desktop
+
+EXERCISE- SELECTION
+The selection exercise involved applying decision- making statements in C programming.
+Selection statements allow a program to make decisions depending on whether a given condition is true or false. The IF statement was used to evaluate a condition and determine which instruction should be executed.
+The main programming concepts involved included:
+* Declaring variables
+* Assigning and receiving values
+* Using relational operators
+* Applying IF and IF- ELSE statements
+* Displaying results using output statements
+Source code
+
+Explanation of the code
+The #inlude <stdio.h> statement provides access to standard input and output functions.
+The main() function is the starting point of the program execution.
+Variables are declared to store the values required by the program.
+The scanF() function is used to receive input from the user, while printF() displays information and results on the screen.
+The IF statement evaluates a condition. If the condition is true, the corresponding block of instructions is executed. Otherwise, the program follows the alternative instruction where an ELSE statement is provided.
+Program output
+
+
+    
+
+
+
+TESTING AND TROUBLEDHOOTING
+During the lab exercise, different errors and warnings were encountered while writing and compiling C programs.
+Testing and debugging helped improve the correctness of the program and increased understanding of how the C compiler identifies possible programming mistakes.
+
+GITHUB WORKFLOW
+I used GitHub to store and manage the laboratory files and track changes made during the exercise.
+The repository was forked and accessed through GitHub Desktop. A separate working branch was created to keep the laboratory changes organized.
+I performed the following GitHub activities were performed:
+* Accessing the public laboratory repository.
+* Forking the repository into my GitHub account.
+* Cloning the repository using GitHub Desktop
+* Creating a new branch for the laboratory exercise.
+* Working on the required programming exercises.
+* Committing the changes.
+* Publishing the branch to the GitHub fork.
+* Preparing a pull request for submission.
+Repository Information 
+GitHub username: Wanjiru-alt 
+Repository: kioto-ics2175-lab02
+Repository URL:
+Branch name: student/ENB211-0009/2025
+Pull request:
+
+The GitHub workflow provided practical experience in version control, repository management and collaborative software development.
+
+
+REFLECTION
+I learned to setup and use Code::Blocks, write basic C programs, compile and execute code, and identify programming errors. I also gained practical experience using GitHub desktop to manage repositories, create branches, commit changes and publish work.
+The most challenging part was understanding the GitHub workflow, particularly locating repositories, creating and publishing branches, and navigating the pull request process. I also experienced some difficulties identifying and correcting some compiler warnings while writing C programs.
+In the future, I would begin by carefully reviewing the instructions, organize my files properly, test my programs regularly and check compiler warnings before committing my work to GitHub. 
+
+CONCLUSION
+The laboratory exercise provided practical knowledge of C programming and version control. I successfully gained experience setting up the programming environment, writing and testing C programs and managing lab files through GitHub.
+Overall, the objectives of the lab exercise were achieved                           
+
+
+

@@ -1,10 +1,13 @@
-# Kioto C Programming - Laboratory 02
+Kioto C programming laboratory 2
 
-## Task
-Read an integer mark (0-100) and print the grade (A-F) and Pass/Fail status.
+Task
+Write a C program that rads an integer mark between 0 and 100 and prints:
 
-## Build and run
-```bash
+The corresponding grade (A to F).
+The pass or fail status
+
+Build and run
+use the following commands:
 make
 make run
 make clean
