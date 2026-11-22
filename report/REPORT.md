@@ -53,7 +53,6 @@ int main(void) {
 
  explanation:
 
-
 #include <stdio.h>: Includes the standard input/output header so printf and scanf can be used.
 
 int mark; and scanf("%d", &mark);: Declares an integer variable mark and reads an integer entered by the user into its memory address (&mark).
