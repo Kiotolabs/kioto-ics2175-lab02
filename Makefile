@@ -1,15 +1,15 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -std=c11
-TARGET = program
+CFLAGS = -wall -wextra -std=c11
+TARGET= program
 SRC = main.c
 
 all: $(TARGET)
 
-$(TARGET): $(SRC)
-	$(CC) $(CFLAGS) -o $(TARGET) $(SRC)
+$(TARGET): $ (SRC)
+  $(CC) $(CFLAGS) -O $(TARGET) $(SRC)
 
 run: $(TARGET)
-	echo "85" | ./$(TARGET)
+   echo "85" | ./$(TARGET)
 
 clean:
-	rm -f $(TARGET) *.o
+  rm -f $(TARGET) *.O
