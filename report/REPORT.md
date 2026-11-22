@@ -137,10 +137,10 @@ int main() {
 
 ## 8. GitHub Workflow
 
-1. **Fork & Clone:** Forked the `kioto-ics2175-lab02` repository on GitHub and cloned it locally using GitHub Desktop: [Mutwiri-Koome/kioto-ics2175-lab02](https://github.com).
+1. **Fork & Clone:** Forked the `kioto-ics2175-lab02` repository on GitHub and cloned it locally using GitHub Desktop: [Mutwiri-Koome/kioto-ics2175-lab02](https://github.com/Mutwiri-Koome/kioto-ics2175-lab02).
 2. **Branch & File Organization:** Worked on the student branch (`student/ENB211-0042-2025/lab02`) and placed both `main.c` and `improve.c` inside the local repository directory.
 3. **Commit & Push:** Staged the source files and report assets in GitHub Desktop, created descriptive commit messages, and pushed the changes to the remote `origin` repository.
-4. **Pull Request:** Opened Pull Request #38 to merge the completed work into the upstream repository: [Pull Request #38](https://github.com).
+4. **Pull Request:** Opened Pull Request #38 to merge the completed work into the upstream repository: [Pull Request #38](https://github.com/Kiotolabs/kioto-ics2175-lab02/pull/38).
 
 ## 9. Screenshots
 
@@ -165,7 +165,7 @@ int main() {
 
 ![GitHub Pull Request](screenshots/github_pull.png)
 
-- **Pull Request Link:** https://github.com
+- **Pull Request Link:** https://github.com/Kiotolabs/kioto-ics2175-lab02/pull/38
 
 ## 10. Individual Reflection
 
