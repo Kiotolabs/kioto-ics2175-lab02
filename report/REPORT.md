@@ -13,7 +13,7 @@
 - **Date Performed**  November 22, 2026 
 - **GitHub Username**  emmahmjuma-pixel
 - **Fork Repository URL** https://github.com/emmahmjuma-pixel/kioto-ics2175-lab02
-- **Pull Request URL**  https://github.com/Kiotolabs/kioto-ics2175-lab02/pull/[PR-NUMBER]
+- **Pull Request URL**  https://github.com/Kiotolabs/kioto-ics2175-lab02/pull/37
 
 ---
 
@@ -180,11 +180,11 @@ Error: Mark out of range. Enter a value between 0 and 100.
 
 ## 6. GitHub Workflow
 
-- **Upstream Repository:** `https://github.com/Kiotolabs/kioto-ics2175-lab02`
-- **Personal Fork URL:** `https://github.com/emmahmjuma-pixel/kioto-ics2175-lab02`
-- **Working Branch Name:** `student/ENB211-0044/2025/lab02`
-- **Pull Request Title:** `Lab 02 submission — ENB211-0044/2025`
-- **Pull Request URL:** `https://github.com/Kiotolabs/kioto-ics2175-lab02/pull/[PR-NUMBER]`
+- **Upstream Repository:** https://github.com/Kiotolabs/kioto-ics2175-lab02
+- **Personal Fork URL:** https://github.com/emmahmjuma-pixel/kioto-ics2175-lab02
+- **Working Branch Name:** student/ENB211-0044/2025/lab02
+- **Pull Request Title:** Lab 02 submission — ENB211-0044/2025
+- **Pull Request URL:** https://github.com/Kiotolabs/kioto-ics2175-lab02/pull/37
 
 
 
