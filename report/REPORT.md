@@ -119,7 +119,7 @@ After compiling the program with zero warnings in Code::Blocks (`Ctrl + F9`), co
 ### Repository and Branch Details
 * **Upstream Repository:** [Kiotolabs/kioto-ics2175-lab02](https://github.com/Kiotolabs/kioto-ics2175-lab02)
 * **Personal Fork URL:** `https://github.com/maritawamwaniki-glitch/kioto-ics2175-lab02`
-* **Working Branch:** `student/ENB211-0031/2025/lab02
+* **Working Branch:** `student/ENB211-0031/2025
 * **Pull Request URL:** `https://github.com/Kiotolabs/kioto-ics2175-lab02/pull/15`
 
 ### Workflow Execution Summary
