@@ -150,20 +150,22 @@ The program was compiled in Code::Blocks and tested with the required lab inputs
 
 ### Repository & Pull Request Details
 * **Official Upstream Repository:** `https://github.com/Kiotolabs/kioto-ics2175-lab02`
-* **Personal Fork URL:** `https://github.com/kamurijohn30-dot/kioto-ics2175-lab02`
-* **Report File Path:** `report/REPORT.md`
+* **Personal Fork URL:** `https://github.com/kamurijohn30-dot/kioto-ics2175-lab02`[cite: 1]
+* **Report File Path:** `report/REPORT.md`[cite: 1]
 * **Working Branch Name:** `student/ENB211-0004-2025/lab02`
 * **Pull Request Target:** `Kiotolabs/kioto-ics2175-lab02` (`main`) ← `kamurijohn30-dot/kioto-ics2175-lab02` (`student/ENB211-0004-2025/lab02`)
-* **Pull Request URL:** `https://github.com/Kiotolabs/kioto-ics2175-lab02/pull/[PR_NUMBER]`
+* **Pull Request Title:** `Lab02 submission ENB211-0004/2025`
+* **Pull Request URL:** `https://github.com/Kiotolabs/kioto-ics2175-lab02/pull/25`
 * **GitHub Actions Validation Status:** `[Passed / Note check result]`
 
 ### Commit Summary
 1. **`Implement selection grading and pass/fail logic in main.c`** — Added relational and `if`/`else if`/`else` conditions to classify marks (`0`–`100`) into grades (`A`–`F`) and `Pass`/`Fail` status.
 2. **`Add boundary and range validation checks`** — Verified boundary thresholds (`0`, `49`, `50`, `59`, `60`, `69`, `70`, `79`, `80`, `100`) and handled invalid or out-of-range inputs cleanly.
-3. **`Update report/REPORT.md with testing, workflow, and reflection`** — Documented the environment, test results, GitHub fork/branch/PR details, and lab reflections.
+3. **`Update report/REPORT.md with testing, workflow, and reflection`**[cite: 1] — Documented the environment, test results, GitHub fork/branch/PR `#25` details, and lab reflections.
 
 ### Workflow Checklist & Evidence
-* **Repository Files Screenshot:** Included (`files github.png`, showing fork contents and `report/REPORT.md`).
+* **Repository Files Screenshot:** Included (`files github.png` / `files github_2.png`, showing fork contents and `report/REPORT.md`)[cite: 1, 2].
+* **Pull Request Link & Screenshot:** `https://github.com/Kiotolabs/kioto-ics2175-lab02/pull/25` (`[Insert screenshot of PR #25 to Kiotolabs/main]`)
 
 ---
 ## 7. Reflection
