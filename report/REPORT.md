@@ -110,7 +110,7 @@ int main() {
 ```
 
 ### Sample Output (`improve.c`)
-![improve.c output](screenshots/improve_c_console.png)
+![improve.c output](screenshots/improve_code_console.png)
 
 ## 6. Explanation of Conditional Logic Used
 
@@ -153,7 +153,7 @@ int main() {
 - **Figure 2:** Console output demonstrating test cases across `main.c` and `improve.c` (passing grade, failing grade, and invalid/boundary input).
 
 ![main.c Console Output](screenshots/main_c_console.png)
-![improve.c Console Output](screenshots/improve_c_console.png)
+![improve.c Console Output](screenshots/improve_code_console.png)
 
 ### 9.3 GitHub Repository
 - **Figure 3:** Forked GitHub repository showing the committed files.
