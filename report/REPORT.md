@@ -1,7 +1,7 @@
 # ICS 2175 – Laboratory 02 Report
 
 ## 1. Cover Information
-- **Student Full Name:** HAGREAEVES ODHIAMBO
+- **Student Full Name:** HAGREAVES ODHIAMBO
 - **Registration Number:** ENB211-0061/2025
 - **Programme:** BSc. Agricultural and Biosystems Engineering
 - **Unit:** ICS 2175 – Introduction to Computer Programming
@@ -10,7 +10,7 @@
 - **Date:** November 20, 2026
 
 ## 2. Objective
-The objective of this laboratory was to learn how to control program flow in C using decision-making structures. Specifically, I aimed to apply relational and logical operators to evaluate conditions, implement `if / else-if / else` ladders and `switch` statements to classify student marks into grades (A–F) and Pass/Fail statuses, handle input validation and boundary values, and submit the completed work using a professional Git and GitHub fork-and-pull-request workflow.
+The objective of this laboratory was to learn how to control program flow in C using decision-making structures. Specifically, I aimed to apply relational and logical operators to evaluate conditions, implement `if / else-if / else` ladders  to classify student marks into grades (A–F) and Pass/Fail statuses, handle input validation and boundary values, and submit the completed work using a professional Git and GitHub fork-and-pull-request workflow.
 
 ## 3. Environment and Setup
 - **Operating System:** Windows 11 (64-bit)
@@ -68,9 +68,13 @@ int main()
 - **Pass/Fail Block (`if (mark >= 50)`):** Uses a two-way `if-else` decision to print `Pass` for marks of 50 and above, and `Fail` for marks below 50.
 
 ### Program Output
-- **Test Case 1 (`85`):** Output -> `Grade: A`, `Status: Pass`
-- **Test Case 2 (`72`):** Output -> `Grade: B`, `Status: Pass`
-- **Test Case 3 (`40`):** Output -> `Grade: F`, `Status: Fail`
+- **Test Case 1 (`90`):** Output -> `Grade: A`, `Status: Pass`
+- **Test Case 2 (`70`):** Output -> `Grade: B`, `Status: Pass`
+- **Test Case 2 (`50`):** Output -> `Grade: D`, `Status: Pass`
+- **Test Case 3 (`45`):** Output -> `Grade: F`, `Status: Fail`
+- **Test Case 2 (`105`):** Output -> `Invalid mark .Please enter a value btwn 0-100`
+- **Test Case 2 (`-5`):** Output -> `Invalid mark .Please enter a value btwn 0-100`
+  
 
 <img width="1366" height="768" alt="Screenshot 2026-11-20 171647" src="https://github.com/user-attachments/assets/bb4a9997-63c7-43c6-89fc-508887db6161" />
 
@@ -78,6 +82,9 @@ int main()
 <img width="1365" height="768" alt="Screenshot 2026-11-20 173945" src="https://github.com/user-attachments/assets/56922dab-844e-4554-b258-70a39a113772" />
 <img width="1366" height="768" alt="Screenshot 2026-11-20 173740" src="https://github.com/user-attachments/assets/c3eedad7-010a-4850-908a-42a3d3fa924d" />
 <img width="1366" height="768" alt="Screenshot 2026-11-20 173816" src="https://github.com/user-attachments/assets/75df1258-6697-4f80-bf2a-76d605d1dca5" />
+<img width="1366" height="768" alt="Screenshot 2026-11-22 222441" src="https://github.com/user-attachments/assets/8a90f868-cbf1-453d-9fe6-d4494539a155" />
+<img width="1366" height="768" alt="Screenshot 2026-11-22 222521" src="https://github.com/user-attachments/assets/d152ac06-73e1-483a-8b8d-44849bfb84f7" />
+
 
 
 ## 5. Testing and Troubleshooting
