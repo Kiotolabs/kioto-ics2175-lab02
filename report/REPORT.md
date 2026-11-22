@@ -41,6 +41,7 @@ int main()
     if (mark < 0 || mark > 100){
          printf("Invalid mark. Please enter a value between 0 and 100.\n");
         return 1;
+    }
     if (mark >=80){
         printf("Grade: A\n");
     }
