@@ -150,7 +150,9 @@
 
 # Figure 5: Boundary value test (input 80, output Grade: A, Status: Pass)
 
-# !\[Figure 5: Boundary test, input 80](../screenshots/Test\_for\_boundary.png)
+# !\[Figure 5: Boundary test, input 80](../screenshots/Test\_for\_boundary.png)Figure 7: GitHub repository showing my files
+
+# !\[Figure 7: GitHub repository](../screenshots/github-repo.png)
 
 
 
