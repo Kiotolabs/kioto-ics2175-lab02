@@ -94,8 +94,9 @@ Layout: Some closing braces were attached to the next 'if'. I moved them onto th
 Fork URL:https://github.com/mukamimuriuki-ui/kioto-ics2175-lab02
 Branch: student/ENB211-0011-2025/lab02
 Commits: main.c, Complete_Report, Add screenshots to report
-Pull request URL: 
-Github Actions result: 
+Pull request URL: https://github.com/Kiotolabs/kioto-ics2175-lab02/pull/16
+Github Actions result: ![Actions-run-49](<../../../Screenshots/Actions Result.png>)
+The Github Actions workflow for my pull request(#16) showed 'Action required': awaiting approval from a maintainer', si it did not run. 
 
 I forked the official Kiotolabs repository,cloned my fork,created my branch,committed the changed files,pushed origin and opened a pull request to Kiotolabs//kioto-ics2175-lab02(main).
 
