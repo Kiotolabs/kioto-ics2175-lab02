@@ -31,16 +31,21 @@ The main programming concepts involved included:
 * Displaying results using output statements
 Source code
 
+
 Explanation of the code
 The #inlude <stdio.h> statement provides access to standard input and output functions.
-The main() function is the starting point of the program execution.
+The main()- function is the starting point of the program execution.
 Variables are declared to store the values required by the program.
-The scanF() function is used to receive input from the user, while printF() displays information and results on the screen.
+The scanF()- function is used to receive input from the user, while printF()- displays information and results on the screen.
 The IF statement evaluates a condition. If the condition is true, the corresponding block of instructions is executed. Otherwise, the program follows the alternative instruction where an ELSE statement is provided.
 Program output
 
 
     
+
+
+
+
 
 
 
@@ -63,9 +68,9 @@ I performed the following GitHub activities were performed:
 Repository Information 
 GitHub username: Wanjiru-alt 
 Repository: kioto-ics2175-lab02
-Repository URL:
+Fork URL: https://github.com/wanjiru-alt/kioto-ics2175-lab02
 Branch name: student/ENB211-0009/2025
-Pull request:
+Pull request: https://github.com/kiotolabs/kioto-ics2175-lab02/pull/1
 
 The GitHub workflow provided practical experience in version control, repository management and collaborative software development.
 
@@ -77,7 +82,7 @@ In the future, I would begin by carefully reviewing the instructions, organize m
 
 CONCLUSION
 The laboratory exercise provided practical knowledge of C programming and version control. I successfully gained experience setting up the programming environment, writing and testing C programs and managing lab files through GitHub.
-Overall, the objectives of the lab exercise were achieved                           
+Overall, the objectives of the lab exercise were achieved.                           
 
 
 
