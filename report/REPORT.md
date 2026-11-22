@@ -3,13 +3,13 @@
 
 **Student Name:** Victor Leken  
 **Registration Number:** ENB211-0037/2025  
-**Programme:** [Enter your programme]  
+**Programme:** AGRICULTURE AND BIOSYSTEMS ENGINEERING  
 **Unit:** ICS 2175 – Introduction to Computer Programming  
 **Laboratory Number:** 02  
 **Experiment Title:** Selection and Decision-Making  
 **Date Performed:** 21 November 2026  
 **Development Environment:** Code::Blocks with GCC compiler  
-**Submission Platform:** GitHub
+**Submission Platform:** GitHub  
 
 ---
 
@@ -18,7 +18,6 @@
 The objective of this laboratory was to learn and apply selection and decision-making statements in the C programming language. The exercise focused on using relational operators and conditional statements such as `if`, `if-else`, and `else-if` to evaluate student marks, assign grades, and determine whether a student had passed or failed.
 
 The laboratory also aimed to develop practical skills in compiling, executing, testing, troubleshooting C programs, and submitting programming work through GitHub using branches and pull requests.
-
 
 ## 2. Environment and Setup
 
@@ -30,7 +29,7 @@ The computer used was running Microsoft Windows 11 Pro, Version 26H2, with OS Bu
 
 ### 2.2 Development Tools
 
-The program was developed using Code::Blocks version 25.03. Code::Blocks is a full-featured integrated development environment (IDE) designed to provide programmers with tools for writing, compiling, debugging and executing programs. Its plugin-based architecture allows additional functionality to be integrated into the development environment.
+The program was developed using Code::Blocks version 25.03. Code::Blocks is an integrated development environment (IDE) designed to provide programmers with tools for writing, compiling, debugging and executing programs.
 
 The GCC compiler was used as the compiler toolchain for the C programming language.
 
@@ -41,7 +40,7 @@ The GCC compiler was used as the compiler toolchain for the C programming langua
 | OS Build | 26300.9974 |
 | IDE | Code::Blocks 25.03 |
 | Programming Language | C |
-| Compiler | GCC |
+| Compiler | GCC (version not recorded) |
 | Source File | `main.c` |
 
 ### 2.3 Setup Procedure
@@ -158,13 +157,12 @@ Status: Fail
 
 ### 3.5 Source Code Evidence
 
-The source code was captured in Code::Blocks and saved in the project evidence folder.
+The source code was captured in Code::Blocks and saved in the project evidence folder:
 
 - `report/screenshots/source-code 01.png`
 - `report/screenshots/source-code-02.png`
 
 These screenshots provide evidence of the program implementation.
-
 
 ## 4. Testing and Troubleshooting
 
@@ -174,7 +172,7 @@ The program was compiled and executed to verify that it correctly classified stu
 
 Several test cases were performed using different input values to check the program's behaviour across the grading ranges.
 
-The following table summarises the test results:
+The following table summarises the test cases:
 
 | Test | Input Mark | Expected Grade | Expected Status |
 |---|---:|---|---|
@@ -197,7 +195,7 @@ The results demonstrated that the program correctly classified the tested marks 
 
 During development, the source code was reviewed to ensure that the input statement, conditional expressions and output statements were correctly implemented.
 
-The program was compiled and tested using different marks. The resulting outputs were checked against the expected grading scale to confirm that the decision-making logic worked correctly.
+The program was compiled and tested using different marks. The resulting outputs were checked against the expected grading scale to confirm that the decision-making logic worked correctly. No specific compilation error was recorded in the available test evidence.
 
 ### 4.4 Testing Evidence
 
@@ -220,6 +218,12 @@ These screenshots provide evidence of the program's execution and its results fo
 
 GitHub was used to manage and submit the Laboratory 02 programming work. The official Kiotolabs repository was used as the starting point. A personal fork was created under my GitHub account, `Leken-dev`, to allow me to work independently on the practical.
 
+**Official Repository:**  
+https://github.com/Kiotolabs/kioto-ics2175-lab02
+
+**Personal Fork:**  
+https://github.com/Leken-dev/kioto-ics2175-lab02
+
 ### 5.2 Branch Creation
 
 An individual working branch was created using the required naming format:
@@ -230,20 +234,20 @@ All Laboratory 02 changes were committed to this branch before being pushed to m
 
 ### 5.3 Commit and Push Process
 
-The completed source code and supporting screenshots were committed and uploaded to GitHub. A total of 12 commits were recorded, covering the program modification and supporting evidence files.
+The completed source code and supporting screenshots were committed and uploaded to GitHub. The pull request details recorded 12 commits at the time of the earlier submission evidence.
 
 The submission included:
+
 - The main C source file (`main.c`).
 - Program output screenshots for different test marks.
 - Source code screenshots.
 - GitHub branch evidence.
 - Pull request evidence.
+- Project documentation and supporting files.
 
 ### 5.4 Pull Request Submission
 
 After pushing the working branch to my fork, I opened a pull request requesting that my changes be reviewed and merged into the official Kiotolabs repository.
-
-The pull request was created with the following details:
 
 **Pull Request Title:** Laboratory 02 Submission – ENB211-0037/2025
 
@@ -251,21 +255,22 @@ The pull request was created with the following details:
 
 **Base Repository:** Kiotolabs/kioto-ics2175-lab02
 
-**Base Branch:** main
+**Base Branch:** `main`
 
 **Head Repository:** Leken-dev/kioto-ics2175-lab02
 
-**Working Branch:** student/ENB211-0037/2025/lab02
+**Working Branch:** `student/ENB211-0037/2025/lab02`
 
-**Commits:** 12
+**Commits:** 12 (as recorded in the earlier pull request evidence)
 
-**Files Changed:** 12
+**Files Changed:** 12 (as recorded in the earlier pull request evidence)
 
-**Pull Request URL:** https://github.com/Kiotolabs/kioto-ics2175-lab02/pull/20
+**Pull Request URL:**  
+https://github.com/Kiotolabs/kioto-ics2175-lab02/pull/20
 
 ### 5.5 Pull Request Status
 
-At the time of preparing this report, the pull request was open and showed no merge conflicts. GitHub indicated that the changes could be automatically merged into the main branch.
+At the time of the earlier submission evidence, the pull request was open and showed no merge conflicts. GitHub indicated that the changes could be automatically merged into the main branch.
 
 The pull request was left open for the lecturer to review. I did not merge or close it.
 
@@ -278,14 +283,14 @@ The following screenshot provides evidence of the submitted pull request:
 The branch creation evidence is also available at:
 
 `report/screenshots/branch.png`
+
 ### 5.7 GitHub Repository Files Evidence
 
 A screenshot of the GitHub repository was captured to show the files uploaded for Laboratory 02. The screenshot displays the repository contents, including the C source file, project documentation, Makefile, GitHub Actions workflow and report evidence folder.
 
-**Screenshot:** `report/screenshots/repository-files.png`
+**Screenshot:** `report/repository-files.png`
 
 This screenshot provides evidence that the required project files were uploaded and are available in my GitHub repository.
-
 
 ## 6. Reflection
 
@@ -299,7 +304,7 @@ The GitHub submission process also helped me understand how to create a working 
 
 ### 6.2 Challenges Encountered
 
-One of the important parts of the exercise was ensuring that the conditions were arranged in the correct order so that each mark received the appropriate grade.
+One important part of the exercise was ensuring that the conditions were arranged in the correct order so that each mark received the appropriate grade.
 
 Another challenge was learning and following the GitHub workflow, particularly creating an individual branch and opening a pull request to the official Kiotolabs repository.
 
@@ -318,7 +323,3 @@ I was able to develop a grading program using `if`, `else-if` and `if-else` stat
 The exercise also improved my practical understanding of Code::Blocks, GCC, Git and GitHub. I successfully created an individual working branch and submitted my work through Pull Request #20 to the official Kiotolabs repository.
 
 Overall, the laboratory objectives relating to conditional statements, grade classification, program testing and GitHub submission were achieved.
-
-
-
-
