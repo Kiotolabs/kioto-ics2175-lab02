@@ -262,23 +262,46 @@ I added my programming files and report to the repository and pushed my changes 
 
 The pull request allows the submitted work to be reviewed and checked before it is accepted into the official repository.
 
+## 7. Screenshot Evidence
 
-## 7. Reflection
+The following nine screenshots are included in the `report/screenshots` folder as evidence of the work completed during Laboratory 02.
 
-Through this laboratory exercise, I learned how selection statements are used in C programming to make decisions based on conditions. I gained practical experience using `if`, `else if` and `else` statements to assign grades and determine whether a student has passed or failed.
+1. `source-code01.png` – Original C source code.
+2. `source-code02.png` – Improved C source code.
+3. `input=0.png` – Program output for mark 0.
+4. `input=40.png` – Program output for mark 40.
+5. `input=50.png` – Program output for mark 50.
+6. `input=72.png` – Program output for mark 72.
+7. `input=79.png` – Program output for mark 79.
+8. `input=80.png` – Program output for mark 80.
+9. `pull-request.png` – GitHub pull request submission.
+10  `submitted files.png` -github files 
 
-One of the challenges I experienced was configuring the GCC compiler in Code::Blocks. I managed to configure the compiler by selecting the correct MinGW installation directory.
+Additional test screenshots for marks 85 and 100, where available, are also included in the folder.
+
+## 8. Submitted Files
+
+The laboratory submission contains:
+
+- `main.c` – Original selection program.
+- `improved.c` – Improved program with input validation and a switch statement.
+- `ICS_2175_Laboratory_ENB211-0121/2025_02_Report.docx` – Laboratory report.
+- `report/screenshots/` – Folder containing screenshot evidence.
+
+## 9. Reflection
+
+Through this laboratory exercise, I learned how selection statements are used in C programming to make decisions based on conditions. I gained practical experience using `if`, `else if`, and `else` statements to assign grades and determine whether a student has passed or failed.
+
+One of the challenges I experienced was configuring the GCC compiler in Code::Blocks. I managed to configure the compiler by selecting the correct compiler installation directory.
 
 I also learned the importance of testing a program with different input values, especially boundary values, to check whether it produces the expected results.
 
-If I were to do this exercise again, I would improve my program by adding input validation to prevent users from entering marks outside the accepted range. I would also test more possible inputs before submitting my work.
+The improved program helped me understand input validation and the use of a `switch` statement. If I were to repeat this exercise, I would plan my tests earlier and explore more possible input cases.
 
+## 10. Conclusion
 
+In conclusion, this laboratory exercise helped me understand the use of selection and decision-making statements in C programming. I successfully wrote, compiled and executed a grading program using `if`, `else if`, `else`, and `switch` statements.
 
-## 8. Conclusion
-
-In conclusion, this laboratory exercise helped me understand the use of selection and decision-making statements in C programming. I successfully wrote, compiled and executed a grading program using `if`, `else if` and `else` statements.
-
-I also gained practical experience in configuring the GCC compiler, testing programs with different marks and using GitHub to manage and submit my work.
+I also gained practical experience in configuring the compiler, testing programs with different marks and using GitHub to manage and submit my work.
 
 The exercise achieved its main objectives by improving my understanding of basic C programming and decision-making.
