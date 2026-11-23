@@ -341,7 +341,7 @@ The following screenshots are included in the `report/screenshots/` directory as
 
 **Original source file:** Retained separately.
 
-**Additional source file:** `improve.c`
+**Additional source files:** `improve.c`,improve-c-01.png,improve-c-02.png,improve-c-03.png
 
 **Report filename:** `REPORT.md`
 
