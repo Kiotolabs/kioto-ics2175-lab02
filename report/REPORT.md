@@ -9,7 +9,7 @@
 
 **Registration Number:** ENB211-0026/2024
 
-**Programme:** [Enter your programme]
+**Programme:** AGRICULTURAL AND BIOSYSTEMS ENGINEERING
 
 **Unit:** ICS 2175 – Introduction to Computer Programming
 
@@ -17,7 +17,7 @@
 
 **Laboratory Title:** Selection and Decision-Making
 
-**Date Performed:** [Enter the actual date]
+**Date Performed:** 22 NOVEMBER 2026
 
 ### 2. Objective
 
@@ -31,10 +31,10 @@ I also aimed to learn how to validate user input, handle boundary values, test a
 
 The practical was carried out using the following tools:
 
-- Operating System: Windows [Confirm version]
-- Code Editor: [Enter the editor actually used]
+- Operating System: Windows 11
+- Code Editor: VISUAL STUDIO CODE
 - Compiler: GCC
-- GCC Version: [Enter version if known]
+- GCC Version: 25.03
 - Programming Language: C
 - Version Control System: Git
 - Online Repository Platform: GitHub
@@ -221,19 +221,15 @@ GitHub was used to manage and submit the completed laboratory practical.
 
 The official Kiotolabs Lab 02 repository was used as the upstream repository. The practical work was submitted through my working branch and a pull request.
 
-**Personal Repository:**
-https://github.com/valentinemutiso-prog/kioto-ics2175-lab02
+**Personal Repository:** https://github.com/valentinemutiso-prog/kioto-ics2175-lab02
 
-**Official Repository:**
-https://github.com/Kiotolabs/kioto-ics2175-lab02
+**Official Repository:** https://github.com/Kiotolabs/kioto-ics2175-lab02
 
-**Working Branch:**
-`student/ENB211-0026/2024/lab02`
+**Working Branch:** `student/ENB211-0026/2024/lab02`
 
 **Pull Request Number:** 32
 
-**Pull Request URL:**
-https://github.com/Kiotolabs/kioto-ics2175-lab02/pull/32
+**Pull Request URL:** https://github.com/Kiotolabs/kioto-ics2175-lab02/pull/32
 
 **Commits:** 29
 
@@ -248,6 +244,7 @@ At the time of preparing this report, Pull Request #32 was open and awaiting rev
 The following screenshots are stored in the `report/screenshots/` folder of my laboratory repository.
 
 **Source code evidence**
+
 - `code-main-c-01.png`
 - `code-main-c-02.png`
 - `improve-c-01.png`
@@ -255,6 +252,7 @@ The following screenshots are stored in the `report/screenshots/` folder of my l
 - `improve-c-03.png`
 
 **Program output evidence**
+
 - `improved-output01.png`
 - `improved-output02.png`
 - `input=0.png`
@@ -267,11 +265,13 @@ The following screenshots are stored in the `report/screenshots/` folder of my l
 - `input=100.png`
 
 **GitHub submission evidence**
+
 - `fork.png`
 - `branch.png`
 - `pull-request.png`
 
 These screenshots provide evidence of the source code, program testing, repository setup, working branch, and pull request submission.
+
 ### 8. Reflection
 
 Through this practical, I learned how to use selection statements in C programming to make decisions based on user input.
