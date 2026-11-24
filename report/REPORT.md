@@ -15,7 +15,7 @@ In this lab I wanted to learn how a C program makes decisions. I practised using
 ## Environment and setup
 - Operating system: Windows 11, version 25H2
 - IDE: Code::Blocks 25.03
-- Compiler: GNU GCC [write the version from Settings > Compiler]
+- Compiler: GNU GCC [gcc.exe (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3) 14.2.0]
 - Git tools: GitHub Desktop, and Visual Studio Code for editing the repository files
 - I made a new Code::Blocks console project (C) called `Kioto_C_lab 02` to write, build and test the program.
 
@@ -123,7 +123,7 @@ Problems I met and how I fixed them:
   1. Implement if/else grading logic
   2. Add input validation and switch for status
   3. Complete report and tests
-- Pull request (to Kiotolabs/main): [paste the PR link here]
+- Pull request (to Kiotolabs/main): [https://github.com/Kiotolabs/kioto-ics2175-lab02/pull/41]
 
 ![My fork on GitHub showing the files](screenshots/s8.png)
 ![Pull request](screenshots/s9.png)
